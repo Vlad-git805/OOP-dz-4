@@ -14,7 +14,7 @@ private:
 public:
 	Array();
 	Array(int size);
-	Array(Array& other);
+	Array(const Array& other);
 	void FillArrRandom();
 	void FillArrByKeyBoard();
 	void FillArrDefault();

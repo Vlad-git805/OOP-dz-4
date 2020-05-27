@@ -16,7 +16,7 @@ Array::Array(int size)
 	}
 }
 
-Array::Array(Array& other)
+Array::Array(const Array& other)
 {
 	this->size = other.size;
 	this->arr = new long[this->size];
